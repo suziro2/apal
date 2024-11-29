@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Personal website</title>
+ 
+    <link rel="stylesheet" href="contact.css"/>
+  </head>
+  <body>
+    <input type="checkbox" id="check">
+    <label for="check">
+      <i class="fas fa-bars" id="btn"></i>
+      <i class="fas fa-times" id="cancel"></i>
+    </label>
+    <div class="sidebar">
+    <header></header>
+    <ul>
+     <li><a href="home.html"><i class="fas fa-qrcode"></i>HOME</a></li>
+     <li><a href="about.html"><i class="fas fa-link"></i>ABOUT</a></li>
+     <li><a href="contact.html"><i class="fas fa-stream"></i>CONTACT</a></li>  
+    </ul>
+   </div>
+   <div class="container">
+    <h2>CONTACT ME</h2>
+    <form action="#">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your Name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Your Email" required>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" placeholder=" Message me" required></textarea>
+        
+        <button type="submit">Submit</button>
+    </form>
+</div>
+   
+  </body>
+</html>
